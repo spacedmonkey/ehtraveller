@@ -22,7 +22,7 @@ body:not(.has-sidebar):not(.page-one-column) .page-header, body.has-sidebar.erro
 }
 
 .site-title,
-.entry-title,{
+.entry-title {
 	font-family: 'Satisfy', cursive;
 }
 .site-title {
