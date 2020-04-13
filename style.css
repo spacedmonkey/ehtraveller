@@ -1,0 +1,30 @@
+/*
+ Theme Name:   EH traveller
+ Theme URI:    https://ehtraveller.com/
+ Description:  Twenty Fifteen Child Theme
+ Author:       Jonny Harris
+ Author URI:   https://www.spacedmonkey.com
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  ehtraveller
+*/
+
+@import url("../twentyseventeen/style.css");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+body:not(.has-sidebar):not(.page-one-column) .page-header, body.has-sidebar.error404 #primary .page-header, body.page-two-column:not(.archive) #primary .entry-header, body.page-two-column.archive:not(.has-sidebar) #primary .page-header,
+.blog:not(.has-sidebar) #primary article, .archive:not(.page-one-column):not(.has-sidebar) #primary article, .search:not(.has-sidebar) #primary article, .error404:not(.has-sidebar) #primary .page-content, .error404.has-sidebar #primary .page-content, body.page-two-column:not(.archive) #primary .entry-content, body.page-two-column #comments{
+	width: 100% !important;
+	float: none  !important;
+}
+
+h1,h2,h3,h4,h5,h6,
+.page-title,
+.site-title,
+.entry-title,
+.widget-title {
+	font-family: 'Satisfy', cursive;
+}
