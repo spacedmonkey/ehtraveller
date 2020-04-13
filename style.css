@@ -21,10 +21,11 @@ body:not(.has-sidebar):not(.page-one-column) .page-header, body.has-sidebar.erro
 	float: none  !important;
 }
 
-h1,h2,h3,h4,h5,h6,
-.page-title,
 .site-title,
-.entry-title,
-.widget-title {
+.entry-title,{
 	font-family: 'Satisfy', cursive;
+}
+.site-title {
+  font-size: 4.25em;
+  text-transform: lowercase;
 }
